@@ -77,7 +77,7 @@ public class CapturaDatos {
                         + "del rango establecido ($10 - $500)", "Error",
                         JOptionPane.WARNING_MESSAGE);
             }
-        } while (x < PRECIO_MIN|| x > PRECIO_MAX);
+        } while (x < PRECIO_MIN || x > PRECIO_MAX);
         return precio;
     }
 }
